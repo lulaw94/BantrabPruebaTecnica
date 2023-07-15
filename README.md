@@ -8,6 +8,7 @@ Endpoints Detalles
 
 Para poder probar el consumo en POSTMAN es necesario crear la base de dato Mysql libreria con nombre dbstock con las siguientes archivos:
 order, customers, details. Se adjunto los querys para la creacion de estos respectivamente:
+
 CREATE TABLE `dbstock`.`order` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `customerID` INT NULL,
